@@ -20,7 +20,7 @@ import reactor.core.publisher.Mono;
  *
  */
 @RestController
-@RequestMapping("/api/vi/messages")
+@RequestMapping("/api/v1/messages")
 public class MessageController {
 
 	@Autowired
